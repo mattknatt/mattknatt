@@ -2,7 +2,7 @@
 
   # Hey, I'm Mattias 👋
 
-  **Java Developer Student** · Backend Enthusiast · Building things that actually work
+  **Java Developer Student** · Backend Enthusiast · Full-stack in progress
 
   [![IT-Högskolan](https://img.shields.io/badge/Student-%40IT--Högskolan-4A90D9?style=flat-square)](https://www.iths.se/)
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)

@@ -81,6 +81,7 @@ A retro-inspired desktop music player built as a group project. Features a custo
 - REST API design & best practices
 - Spring Security
 - Clean architecture & design patterns
+- Frontend environments
 
 ---
 

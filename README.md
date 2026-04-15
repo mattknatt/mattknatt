@@ -15,7 +15,7 @@
 
 ## About Me
 
-I'm a Java developer student at **IT-Högskolan**, focused on building clean, well-structured backend systems. I enjoy working close to the data layer — designing entities, wiring up repositories, and making sure everything talks to the database the way it should.
+I'm a Java developer student at **IT-Högskolan**, focused on building clean, well-structured backend systems. I enjoy working close to the data layer — designing entities, wiring up repositories, and making sure everything talks to the database the way it should. I'm also learning different frontend possibilites on my way to becoming a full-stack developer.
 
 - 🎓 Currently studying Java development at IT-Högskolan
 - 🔧 Interested in **backend development**, REST APIs, and data persistence

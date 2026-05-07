@@ -61,7 +61,18 @@ A high-performance, full-stack gym class booking application built with a focus 
 
 Deployed as a single Docker unit on **Fly.io** with a serverless **Neon Postgres** backend and automated CI/CD via **GitHub Actions**.
 
-🔗 [boka.](https://github.com/mattknatt/boka)
+🔗 [boka. GitHub repo](https://github.com/mattknatt/boka) · [Live deployment](https://boka.fly.dev/)
+
+---
+
+### 🤖 Personal AI Companion
+> Spring Boot · React 19 · TypeScript · Vite · Fly.io · Vercel
+
+A full-stack AI chat application with a terminal-inspired UI, built on a custom Spring Boot middleware layer that bridges clients with an LLM backend. Features switchable AI personalities, per-session conversation memory, and resilient retry logic with exponential backoff.
+
+The backend is deployed on **Fly.io** and the React frontend on **Vercel**, communicating via a single `POST /api/v1/chat` endpoint backed by **OpenRouter**.
+
+🔗 [Backend](https://github.com/mattknatt/spring-llm-gateway) · [Frontend](https://github.com/mattknatt/chat-frontend) · [Live deployment](https://ai-chat-ui-weld-sigma.vercel.app/)
 
 ---
 

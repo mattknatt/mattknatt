@@ -1,33 +1,30 @@
 <div align="center">
-
   # Hey, I'm Mattias 👋
-
+ 
   **Java Developer Student** · Backend Enthusiast · Full-stack in progress
-
+ 
   [![IT-Högskolan](https://img.shields.io/badge/Student-%40IT--Högskolan-4A90D9?style=flat-square)](https://www.iths.se/)
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
   ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
   ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-
+ 
 </div>
-
 ---
-
+ 
 ## About Me
-
+ 
 I'm a Java developer student at **IT-Högskolan**, focused on building clean, well-structured backend systems. I enjoy working close to the data layer — designing entities, wiring up repositories, and making sure everything talks to the database the way it should. I'm also learning different frontend possibilites on my way to becoming a full-stack developer.
-
+ 
 - 🎓 Currently studying Java development at IT-Högskolan
 - 🔧 Interested in **backend development**, REST APIs, and data persistence
 - 🌱 Growing my skills in **Spring Boot**, **JPA/Hibernate**, and **system design**
 - 🤝 Comfortable working in teams and contributing to collaborative projects
-
 ---
-
+ 
 ## Tech Stack
-
+ 
 **Languages & Frameworks**
-
+ 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -35,67 +32,84 @@ I'm a Java developer student at **IT-Högskolan**, focused on building clean, we
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=java&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
-
+ 
 **Databases**
-
+ 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-
+ 
+**Messaging & Infrastructure**
+ 
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+ 
 **Tools & Practices**
-
+ 
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Fly.io](https://img.shields.io/badge/Fly.io-4433FF?style=flat-square&logo=fly.io&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
+ 
 ---
-
+ 
 ## Projects
-
+ 
 ### 🏋️ boka. — Gym Class Booking App
 > Spring Boot · React 19 · TypeScript · PostgreSQL · Fly.io · GitHub Actions
-
+ 
 A high-performance, full-stack gym class booking application built with a focus on clean architecture, developer experience, and cloud-native deployment. Features Google OAuth2, atomic reservations, and a personal bookings dashboard.
-
+ 
 Deployed as a single Docker unit on **Fly.io** with a serverless **Neon Postgres** backend and automated CI/CD via **GitHub Actions**.
-
+ 
 🔗 [boka. GitHub repo](https://github.com/mattknatt/boka) · [Live deployment](https://boka.fly.dev/)
-
+ 
 ---
-
+ 
 ### 🤖 Personal AI Companion
 > Spring Boot · React 19 · TypeScript · Vite · Fly.io · Vercel
-
+ 
 A full-stack AI chat application with a terminal-inspired UI, built on a custom Spring Boot middleware layer that bridges clients with an LLM backend. Features switchable AI personalities, per-session conversation memory, and resilient retry logic with exponential backoff.
-
+ 
 The backend is deployed on **Fly.io** and the React frontend on **Vercel**, communicating via a single `POST /api/v1/chat` endpoint backed by **OpenRouter**.
-
+ 
 🔗 [Backend](https://github.com/mattknatt/spring-llm-gateway) · [Frontend](https://github.com/mattknatt/chat-frontend) · [Live deployment](https://ai-chat-ui-weld-sigma.vercel.app/)
-
+ 
 ---
-
+ 
+### 💬 Triasent — Microservices Chat with an LLM Bot
+> Spring Boot · OAuth2/OIDC · PostgreSQL · RabbitMQ · gRPC · Docker · Kubernetes
+ 
+A microservices chat application where users converse with an LLM-backed assistant, built to explore realistic distributed-system concerns. Features secure **OAuth2/OIDC** flows via a Spring Authorization Server, a **BFF gateway** holding the session cookie, and an event-driven bot reply path over **RabbitMQ** using a transactional **outbox** pattern.
+ 
+Each service owns its own database (database-per-service), conversations are isolated per user by a stable user UUID, and the whole system runs identically under **Docker Compose** or on **Kubernetes**.
+ 
+🔗 [Triasent](https://github.com/mattknatt/triasent)
+ 
+---
+ 
 ### 🎵 myPod — Music Player with iTunes Integration
 > JavaFX · JPA/Hibernate · MySQL · iTunes API
-
+ 
 A retro-inspired desktop music player built as a group project. Features a custom **Click Wheel** navigation interface for browsing music fetched from the iTunes Search API, stored locally for offline access.
-
+ 
 **My contributions:** iTunes API client, JPA entity design, repository layer, database initialization.
-
+ 
 🔗 [myPod](https://github.com/mattknatt/myPod)
-
+ 
 ---
-
+ 
 ## Currently Learning
-
+ 
 - REST API design & best practices
 - Spring Security
 - Clean architecture & design patterns
 - Frontend environments
-
 ---
-
+ 
 <div align="center">
   <i>Always open to collaborating on interesting Java projects!</i>
 </div>
